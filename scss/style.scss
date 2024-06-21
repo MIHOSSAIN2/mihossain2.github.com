@@ -1,11 +1,12 @@
 /******* Bootstrap Theming ********/
 
 $primary: #FF6600;
-$secondary: #F2F1F8;
+$secondary: #f7f7f7;
 $light: #FFFFFF;
 $dark: #44425A;
 
-$font-family-sans-serif: 'Poppins', sans-serif;
+// $font-family-sans-serif: 'Poppins', sans-serif;
+$font-family-sans-serif: 'Inter', sans-serif;
 
 $body-color: #6C6A74;
 
@@ -14,8 +15,10 @@ $headings-color: $dark;
 $enable-responsive-font-sizes: true;
 
 $border-radius: 8px;
-
-@import "bootstrap/scss/bootstrap";
+body {
+    font-family: $font-family-sans-serif;
+}
+// @import "bootstrap/scss/bootstrap";
 
 
 /********** Custom CSS ************/
@@ -178,8 +181,9 @@ h6,
 }
 
 .bg-registration {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/registration.jpg), no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(114, 114, 58, 0.8)), url(../img/registration.jpg), no-repeat center center;
     background-size: cover;
+    object-fit: cover;
 }
 
 .team-img .team-social {
@@ -265,3 +269,16 @@ h6,
     padding: 0;
     list-style-type: none;
 }
+
+.cat-item.position-relative.overflow-hidden.rounded.mb-2  {
+    filter: drop-shadow(3px 3px 6px #100f0f);
+}
+
+.blog-item.position-relative.overflow-hidden.rounded.mb-2 {
+    filter: drop-shadow(3px 3px 4px #2e2c2c);
+}
+
+.rounded.overflow-hidden.mb-2 {
+    filter: drop-shadow(5px 5px 5px #aaa);
+}
+
