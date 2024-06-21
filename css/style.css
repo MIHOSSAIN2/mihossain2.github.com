@@ -2353,7 +2353,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+  box-shadow: none;
 }
 
 .btn.disabled, .btn:disabled {
@@ -2922,7 +2922,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link {
-  font-weight: 400;
+  font-weight: 700;
   color: #FF6600;
   text-decoration: none;
 }
