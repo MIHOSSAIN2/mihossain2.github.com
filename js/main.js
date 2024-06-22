@@ -57,7 +57,6 @@ var h250 = document.getElementsByClassName('h-250');
 var h350 = document.getElementsByClassName('h-350');
 var h450 = document.getElementsByClassName('h-450');
 
-
 for (let i = 0; i < hThumbnail.length; i++) {
     hThumbnail[i].style.height = "60px";
     hThumbnail[i].style.width = "60px";
