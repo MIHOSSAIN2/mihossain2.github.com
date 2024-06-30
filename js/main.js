@@ -144,4 +144,6 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
-})
+});
+
+document.body.classList.add('dark-mode');
