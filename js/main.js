@@ -125,3 +125,23 @@ for (let i = 0; i < objFitCenter.length; i++) {
     objFitCenter[i].style.objectFit = "cover";
     objFitCenter[i].style.objectPosition = "center";
 }
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav : true,
+    navText : ["<",">"],
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
